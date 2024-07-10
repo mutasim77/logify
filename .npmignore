@@ -1,0 +1,73 @@
+# Source files
+src/
+
+# TypeScript config
+tsconfig.json
+
+# Test files
+**/*.spec.ts
+**/*.test.ts
+__tests__/
+jest.config.js
+
+# Development config files
+.eslintrc.js
+.prettierrc
+.editorconfig
+
+# Git related
+.git/
+.gitignore
+
+# CI/CD
+.travis.yml
+.gitlab-ci.yml
+.github/
+
+# Editor directories
+.vscode/
+.idea/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Dependency directories
+node_modules/
+
+# Misc
+.DS_Store
+*.env
+*.env.*
+!*.env.example
+
+# Documentation files (if you prefer to keep these out of the npm package)
+docs/
+*.md
+!README.md
+
+# Build scripts
+scripts/
+
+# Configuration files for development tools
+.eslintignore
+.eslintrc
+.prettierrc
+.babelrc
+
+# Any other development-only files
+TODO.md
+CHANGELOG.md
+CONTRIBUTING.md
+
+# Ignore all dot files except necessary ones
+.*
+!.npmignore
+
+# Ignore CI configurations
+.circleci
+.github

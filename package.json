@@ -1,0 +1,47 @@
+{
+    "name": "logify-ts",
+    "version": "1.0.0",
+    "description": "A powerful and flexible logging library for JS/TS projects",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "test": "jest",
+        "prepare": "npm test && npm run build",
+        "publish": "yarn publish --access public",
+        "publish:patch": "yarn version --patch && yarn publish",
+        "publish:minor": "yarn version --minor && yarn publish",
+        "publish:major": "yarn version --major && yarn publish"
+    },
+    "keywords": [
+        "logify",
+        "logging",
+        "logger",
+        "typescript",
+        "javascript"
+    ],
+    "author": "Mutasim",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mutasim77/logify"
+    },
+    "bugs": {
+        "url": "https://github.com/mutasim77/logify/issues"
+    },
+    "homepage": "https://github.com/mutasim77/logify#readme",
+    "devDependencies": {
+        "@types/jest": "^27.0.0",
+        "@types/node": "^16.0.0",
+        "@typescript-eslint/eslint-plugin": "^5.0.0",
+        "@typescript-eslint/parser": "^5.0.0",
+        "eslint": "^8.0.0",
+        "jest": "^27.0.0",
+        "prettier": "^2.5.0",
+        "ts-jest": "^27.1.5",
+        "typescript": "^4.5.0"
+    }
+}
