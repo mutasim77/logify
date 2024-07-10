@@ -1,4 +1,7 @@
 <p align="center">
+    <img width="780" alt="Banner" src="https://github.com/mutasim77/logify/assets/96326525/288cfbb2-b1b0-4731-85f1-efee2747dd9a">
+</p>
+<p align="center">
     📝 Logify is a powerful, flexible, and easy-to-use logging library for JS/TS projects. 🗃️
 </p>
 
